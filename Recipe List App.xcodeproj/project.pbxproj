@@ -18,6 +18,7 @@
 		C31E393F2787F73A008BAAD3 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E393E2787F73A008BAAD3 /* RecipeDetailView.swift */; };
 		C396E0E5278AD579007F2105 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396E0E4278AD579007F2105 /* RecipeTabView.swift */; };
 		C396E135278BD86C007F2105 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396E134278BD86C007F2105 /* Ingredient.swift */; };
+		C396E137278BF5D9007F2105 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396E136278BF5D9007F2105 /* RecipeFeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C31E393E2787F73A008BAAD3 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		C396E0E4278AD579007F2105 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		C396E134278BD86C007F2105 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		C396E136278BF5D9007F2105 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +115,10 @@
 		C31E39342787D8ED008BAAD3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C396E0E4278AD579007F2105 /* RecipeTabView.swift */,
+				C396E136278BF5D9007F2105 /* RecipeFeaturedView.swift */,
 				C31E39252787D891008BAAD3 /* RecipeListView.swift */,
 				C31E393E2787F73A008BAAD3 /* RecipeDetailView.swift */,
-				C396E0E4278AD579007F2105 /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				C31E393B2787DB8E008BAAD3 /* RecipeModel.swift in Sources */,
 				C31E39262787D891008BAAD3 /* RecipeListView.swift in Sources */,
 				C396E135278BD86C007F2105 /* Ingredient.swift in Sources */,
+				C396E137278BF5D9007F2105 /* RecipeFeaturedView.swift in Sources */,
 				C31E39242787D891008BAAD3 /* Recipe_List_App.swift in Sources */,
 				C31E393D2787E003008BAAD3 /* DataService.swift in Sources */,
 				C396E0E5278AD579007F2105 /* RecipeTabView.swift in Sources */,
