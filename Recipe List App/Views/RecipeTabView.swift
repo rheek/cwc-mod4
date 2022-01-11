@@ -32,6 +32,8 @@ struct RecipeTabView: View {
                 }
             
         }
+        
+        // Add environment object modifier to get data for all child views
         .environmentObject(RecipeModel())
     }
 }
