@@ -20,6 +20,7 @@
 		C396E135278BD86C007F2105 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396E134278BD86C007F2105 /* Ingredient.swift */; };
 		C396E137278BF5D9007F2105 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396E136278BF5D9007F2105 /* RecipeFeaturedView.swift */; };
 		C3E229C5278FDC9700E863DB /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E229C4278FDC9700E863DB /* Rational.swift */; };
+		C3E229C72790164600E863DB /* RecipeHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E229C62790164600E863DB /* RecipeHighlights.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		C396E134278BD86C007F2105 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		C396E136278BF5D9007F2105 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		C3E229C4278FDC9700E863DB /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
+		C3E229C62790164600E863DB /* RecipeHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHighlights.swift; sourceTree = "<group>"; };
+		C3E229C827901E2100E863DB /* Recipe-List-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Recipe-List-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		C31E39222787D891008BAAD3 /* Recipe List App */ = {
 			isa = PBXGroup;
 			children = (
+				C3E229C827901E2100E863DB /* Recipe-List-App-Info.plist */,
 				C31E39232787D891008BAAD3 /* Recipe_List_App.swift */,
 				C31E39342787D8ED008BAAD3 /* Views */,
 				C31E39322787D8E6008BAAD3 /* ViewModels */,
@@ -122,6 +126,7 @@
 				C396E136278BF5D9007F2105 /* RecipeFeaturedView.swift */,
 				C31E39252787D891008BAAD3 /* RecipeListView.swift */,
 				C31E393E2787F73A008BAAD3 /* RecipeDetailView.swift */,
+				C3E229C62790164600E863DB /* RecipeHighlights.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				C31E393B2787DB8E008BAAD3 /* RecipeModel.swift in Sources */,
 				C31E39262787D891008BAAD3 /* RecipeListView.swift in Sources */,
 				C396E135278BD86C007F2105 /* Ingredient.swift in Sources */,
+				C3E229C72790164600E863DB /* RecipeHighlights.swift in Sources */,
 				C396E137278BF5D9007F2105 /* RecipeFeaturedView.swift in Sources */,
 				C31E39242787D891008BAAD3 /* Recipe_List_App.swift in Sources */,
 				C3E229C5278FDC9700E863DB /* Rational.swift in Sources */,
@@ -356,6 +362,7 @@
 				DEVELOPMENT_TEAM = 7594U9LS9B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recipe-List-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -385,6 +392,7 @@
 				DEVELOPMENT_TEAM = 7594U9LS9B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recipe-List-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
